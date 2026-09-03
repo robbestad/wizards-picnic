@@ -1,0 +1,33 @@
+{
+  "name": "awizardspicnic",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "A Wizard's Picnic — you packed lunch, they packed teeth.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbestad/awizardspicnic.git"
+  },
+  "homepage": "https://github.com/robbestad/awizardspicnic",
+  "bugs": {
+    "url": "https://github.com/robbestad/awizardspicnic/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "svenjs": "3.2.1"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.2",
+    "vite": "^6.2.4",
+    "vitest": "^3.0.9"
+  }
+}

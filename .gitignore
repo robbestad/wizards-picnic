@@ -1,0 +1,13 @@
+node_modules
+dist
+.vite
+.tools
+.DS_Store
+*.log
+.playwright-mcp
+game-*.png
+title-desktop*.png
+title-mobile.png
+hud-no-spell.png
+keyed-sprites.png
+raw/
