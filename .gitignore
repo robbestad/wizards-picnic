@@ -1,6 +1,7 @@
 node_modules
 dist
 .vite
+.vercel
 .tools
 .DS_Store
 *.log
@@ -11,3 +12,4 @@ title-mobile.png
 hud-no-spell.png
 keyed-sprites.png
 raw/
+.env*
